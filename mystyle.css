@@ -1,0 +1,39 @@
+h2{
+    color: yellow;
+}
+h1{
+    color: rgb(253, 253, 253);
+}
+
+.textgreen{
+    color: green;
+}
+.textblue{
+    color: blue;
+}
+#textpink{
+    color: pink;
+}
+h5{
+    font-size: 90px;
+    color: salmon;
+}
+div {
+    width: 300px;
+  margin: auto;
+  background-color: #FFF4A3;
+
+  }
+
+.div_bg1 {
+  background-color: #e6a121;
+
+}
+.div_bg2 {
+    background-color: #9d31ac;
+  
+  }
+  .div_bg3 {
+    background-color: #41ebdc;
+  
+  }
