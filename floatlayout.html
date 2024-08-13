@@ -26,10 +26,11 @@ header {
 nav {
   float: left;
   width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 800px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
 }
+
 
 /* Style the list inside the menu */
 nav ul {
@@ -41,8 +42,8 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  background-color: #ffffff;
+  height: auto; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
@@ -89,9 +90,101 @@ footer {
   </nav>
   
   <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+<body>
+<form>
+    <h1>แบบฟอร์ม สมัครเข้าศึกษาต่อ</h1>
+    <div>
+        <table border="2" width="800px">
+            <tr> 
+                <th width="50%">Info</th>
+                <th>User Input</th>
+            </tr>
+            <tr>
+                <td>กรอกรหัส นศ.* :</td>
+                <td><input type="text" name="std-id" id = "" required></td>
+            </tr>
+            <tr>
+                <td>กรอกชื่อ นศ. :</td>
+                <td><input type="text" name="std-name" id ="" required></td>
+            </tr>
+            <tr>
+                <td>กรอกอีเมล :</td>
+                <td><input type="email" name="std-mail"></td>
+            </tr>
+            <tr>
+                <td>กรอกรหัสผ่าน :</td>
+                <td><input type="password" name="std-mail" id=""></td>
+            </tr>
+            <tr>
+                <td>กรอกเบอร์โทร :</td>
+                <td><input type="tel" name="std-tel" ></td>
+            </tr>
+            <tr>
+                <td>วันเดือนปีเกิด :</td>
+                <td><input type="date" name="std-birthdate" id=""></td>
+            </tr>
+            <tr>
+                <td>สีที่คุณชอบ :</td>
+                <td><input type="color" name="std-color" id=""></td>
+            </tr>
+            <tr>
+                <td>ส่วนสูง : [100 - 250 CM]</td>
+                <td><input type="number" name="std-height" min="100" max = "250">CM.</td>
+            </tr>
+            <tr>
+                <td>น้ำหนัก : [20 - 200 CM]</td>
+                <td><input type="number" name="std-height" min="100" max = "250">KG.</td>
+            </tr>
+            <tr>
+                <td>รูปภาพ หน้าตรง : </td>
+                <td><input type="file" name="std-image"></td>
+            </tr>
+            <tr>
+                <td>สาขาวิชา</td>
+                <td>
+                    <input type="radio" name="major" value="INET"> INET <br>
+                    <input type="radio" name="major" value="INE"> INE <br>
+                    <input type="radio" name="major" value="ITI"> ITI <br>
+                    <input type="radio" name="major" value="IT"> IT <br>
+                </td>
+            </tr>
+            <tr>
+                <td>อาหารที่ชอบ : </td>
+                <td> 
+                    <input type="checkbox" name="food1" value ="ham">ham<br>
+                    <input type="checkbox" name="food1" value ="rice">rice<br>
+                    <input type="checkbox" name="food1" value ="ham">steak<br>
+                </td>
+            </tr>
+            <tr>
+                <td>ที่อยู่ : </td>
+                <td>
+                    <textarea name="address" cols="30" rows="5"> ที่อยู่ปัจจุบัน</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>ชั้นปี : </td>
+                <td>
+                    <select name="std-year">
+                        <option value="1"> ปี 1</option>
+                        <option value="2"> ปี 2</option>
+                        <option value="3"> ปี 3</option>
+                        <option value="4"> ปี 4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>ยืนยันข้อมูล : </td>
+                <td>
+                    <input type="submit" name="" value="OK">
+                    <input type="reset" name="" value="Cancel">
+                </td>
+            </tr>
+            </table>
+</div>
+</form>
+</body>
+</html>
   </article>
 </section>
 
