@@ -1,0 +1,18 @@
+.sidebar{
+  background:#4F6072;
+}
+.content{
+  background:#4F9996;
+}
+
+
+@media only screen and (min-width: 769px) {
+  .sidebar{
+    width:50%;
+    float:right;
+  }
+  .content{
+    width:50%;
+    float:left;
+  }
+}
